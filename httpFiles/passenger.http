@@ -1,0 +1,15 @@
+
+### Get all passengers
+GET {{apiUrl}}/api/v1/passengers
+Accept: application/json
+
+### Create a new passenger
+POST {{apiUrl}}/api/v1/passengers
+Authorization: Bearer {{token}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe"
+}
